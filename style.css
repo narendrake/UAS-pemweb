@@ -1,0 +1,167 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #040938;
+    margin: 50px;
+    padding: 0;
+    color: #d1d1d7;
+}
+
+h1 {
+    text-align: center;
+    color: #fefffe;
+    margin-bottom: 50px;
+}
+
+h2 {
+    color: #fefffe;
+}
+
+h3 {
+    color: #fefffe;
+}
+
+a {
+    color: #d1d1d7;
+}
+
+a:hover {
+    color: #fefffe;
+}
+
+/* Container */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(19, 21, 66, 0.5);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 30px 150px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-button {
+    display: block;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 10px 30px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="checkbox"] {
+    padding: 10px;
+    padding-top: 15px;
+    border: 1px solid #0e0f27;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #0e0f27;
+    color: #fefffe;
+}
+
+input[type="checkbox"] {
+    width: auto;
+}
+
+button {
+    background-color: #dddddd;
+    color: #010100;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #fefffe;
+}
+
+button:focus {
+    background-color: #dddddd;
+    border: 2px solid #131542;
+    outline: 3px solid #dddddd;
+}
+
+.error {
+    color: #e74c3c;
+    font-size: 14px;
+}
+
+.success {
+    color: #27ae60;
+    font-size: 14px;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th,
+table td {
+    /* border: 1px solid #ddd; */
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #000000a5;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: rgba(19, 21, 66, 1);
+}
+
+.info-group {
+    display: flex;
+    flex-direction: space-around;
+    align-items: top;
+    gap: 100px;
+    padding: 20px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    button {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    table th,
+    table td {
+        font-size: 14px;
+        padding: 8px;
+    }
+}
