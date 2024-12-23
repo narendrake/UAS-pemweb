@@ -45,7 +45,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     // Tampilkan pesan
     echo "<p>$message</p>";
-    echo '<a href="form.php">Kembali ke Form</a>';
+    echo '<a href="index.php">Kembali ke Form</a>';
 
 
 } else {

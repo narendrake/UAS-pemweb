@@ -1,5 +1,5 @@
 <?php
-require_once 'Koneksi.php';
+require_once 'config.php';
 
 class UserController extends Koneksi {
     // Metode untuk mengambil semua data user
